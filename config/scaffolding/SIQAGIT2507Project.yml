@@ -12,7 +12,7 @@ services:
   packages:
   - name: SIQAGIT2507Project
     version: "1.0"
-- serviceName: project.siqagit2507.integrations:JMS_JNDI_SSL
+- serviceName: project.siqagit2507.integrations:JMSFlowTest
   packages:
   - name: SIQAGIT2507Project
     version: "1.0"
@@ -24,6 +24,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.7
+- serviceName: project.siqagit2507.integrations:JMS_JNDI_SSL
+  packages:
+  - name: SIQAGIT2507Project
+    version: "1.0"
 - serviceName: project.siqagit2507.integrations:SIQAAdapterFlow
   packages:
   - name: SIQAGIT2507Project
